@@ -6,7 +6,7 @@ notes: This POC project is built on top of [DevCycle Ruby Server SDK Example App
 
 ## Usage
 
-For example, there is a bug in one of our APIs, say the /add-funds path, where existing feature flags won't be able to mitigate the issue. There might be massive impact until the deployment rollback is completed. The quickest way to immediately lower this impact is to skip the logic for the API, which is where the feature flag is being used here.
+For example, there is a bug in one of our APIs, say the `POST /add-funds` path, where existing feature flags won't be able to mitigate the issue. There might be massive impact until the deployment rollback is completed. The quickest way to immediately lower this impact is to skip the logic for the API, which is where the feature flag is being used here.
 
 ## Requirements
 
